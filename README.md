@@ -48,13 +48,18 @@ $ pip install -r requirements.txt
 │   └── model_dump_defult.bin
 ├── notebooks
 │   └── exploration.ipynb
-└── src
-    ├── config.py
-    ├── create_folds.py
-    ├── preprocessing.py
-    ├── run.py
-    ├── train.py
-    └── utils.py
+├── src
+│   ├── config.py
+│   ├── create_folds.py
+│   ├── preprocessing.py
+│   ├── run.py
+│   ├── train.py
+│   └── utils.py
+└── test
+    ├── calc.py
+    ├── test_calc.py
+    ├── employee.py
+    ├── test_employee.py
 ├── requirements.txt
 ├── README.md
 ```
